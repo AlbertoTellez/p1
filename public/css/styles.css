@@ -1,0 +1,26 @@
+.navbar {
+    background-color: rgb(170, 21, 21);
+}
+
+.navbar-right li a {
+    color: white !important;
+    font-size: 20px;
+}
+
+#logo {
+    width: 60px;
+}
+
+.text-md-left {
+    background-color: rgb(170, 21, 21);
+    color: white;
+}
+
+.py-3 {
+    background-color: rgb(170, 21, 21);
+    color: white;
+}
+
+.redes-logo {
+    width: 30px;
+}
