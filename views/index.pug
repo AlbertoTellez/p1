@@ -2,9 +2,74 @@ extends ./layout/standard.pug
 
 block content
 
-  h1= title
-  p Welcome to #{"Cachorros"}
+  <link rel="stylesheet" media="screen" href="css/particles.css")>
 
+  <div id="particles-js">
+    <div class="col-md-6 col-md-offset-3" id="contentBannerHome">
+      <h1>Cachorros E-Sports</h1>
+      <p>Sumergete en el mundo de los esports!</p>
+      <button class="btn btn-success btnCachorros" ><span>COMIENZA AHORA</span></button>
+    </div>  
+  </div>
 
+  <div id="divServices" class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h1>Nuestros Equipos</h1>
+      <br>
+      <p>Conoce las distintas escenaas competitivas en las que participamos!</p>
+    </div>
+  </div>
+
+  <div class="parallax"></div>
+
+    <div id="divContent" class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-6 col-xs-12">
+          <h1>Nuestro progreso</h1>
+          <br>
+          <button class="btn btn-success btnCachorros"> CONOCE MÁS</button>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <div class="skills sm-m-20px-b">
+            <div class="progress-lt">
+              <h6>FORTNITE</h6>
+              <div class="progress">
+                <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                  <span>LIGA DE CAMPEONES</span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-lt">
+              <h6>APEX LEGENDS</h6>
+              <div class="progress">
+                <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="64" aria-valuemin="0" aria-valuemax="100" style="width: 64%;">
+                  <span>PLATINO</span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-lt">
+              <h6>CLASH ROYALE</h6>
+              <div class="progress">
+                <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                  <span>CAMPEONES DEFINITIVOS</span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-lt">
+              <h6>LEAGUE OF LEGENDS</h6>
+              <div class="progress">
+                <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%;">
+                  <span>GRAN MAESTRO</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>   
+
+  <script src="js/particles/particles.js"></script>
+  <script src="js/particles/app.js"></script>
+  <script src="js/particles/lib/stats.js"></script>
 
 

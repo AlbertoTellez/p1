@@ -1,5 +1,6 @@
 .navbar {
     background-color: rgb(170, 21, 21);
+    margin-bottom: 0% !important;
 }
 
 .navbar-right li a {
@@ -40,4 +41,70 @@
 
 #btnForm:hover {
     background: -webkit-linear-gradient(left, rgba(173, 0, 0, 1) 0%, rgba(173, 0, 0, 1) 16%, rgba(61, 24, 15, 1) 100%);
+}
+
+#contentBannerHome {
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+
+#contentBannerHome h1 {
+    margin-top: 30%;
+    font-size: 60px;
+}
+
+#contentBannerHome p {
+    font-size: 30px;
+}
+
+.btnCachorros {
+    background-color: rgb(170, 21, 21);
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(170, 21, 21);
+}
+
+button span {
+    font-weight: 500;
+}
+
+.btnCachorros:hover {
+    background-color: white;
+    color: rgb(170, 21, 21);
+    border-radius: 10px;
+    border-color: rgb(170, 21, 21);
+}
+
+#divServices {
+    background-color: rgb(170, 21, 21);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#divServices h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.parallax {
+    background-image: url("/images/img11.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#divContent {
+    /* height: cover; */
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.progress-bar {
+    background-color: rgb(170, 21, 21);
 }
